@@ -34,3 +34,24 @@ main form section {
     justify-content: center;
     flex-direction: column;
 }
+
+form .form-control {
+    margin: .4rem 0;
+}
+
+form .form-control label {
+    display: block;
+    font-size: .8rem;
+}
+
+form .form-control label.inline {
+    display: inline;
+}
+
+form .btn {
+    background-color: #4cd137;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    padding: .5rem 1rem;
+    border: none;
+}
